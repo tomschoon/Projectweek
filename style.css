@@ -1,0 +1,88 @@
+/*Dit is voor de achtergrond van de web-pagina en de groote van de text*/
+body {
+  font-size: 18px;
+  background-color: #D3D3D3;
+}
+
+/*Dit is allemaal van de nav-bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Dit is de hover kleur van de nav-bar*/
+li a:hover {
+  background-color: #b9d5fd;
+}
+
+/*Dit is de kleur van het blokje van de pagina in de nav-bar */
+.active {
+  background-color: #709fdc;
+}
+
+/* Dit is voor de foto in de "head" */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Dit is voor de strepen die de pagina's verdelen */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/* dit zijn de witte boxen achter de HTML en CSS texten op de website */
+.box1 {
+  width: 630px;
+  height: 140px;
+}
+
+.box2 {
+  width: 630px;
+  height: 600px;
+}
+
+.box3 {
+  width: 630px;
+  Height: 30px;
+}
+
+.box4 {
+  width: 630px;
+  height: 310px;
+}
+
+.box5 {
+  width: 630px;
+  height: 1280px;
+}
+
+.white {
+  background:#FFF;
+}

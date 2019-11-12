@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Website </title>
+</head>
+<div>
+
+<div class="header">
+<img src="head.jpg" alt="Top background" class="center">
+</div>
+
+<ul>
+  <li><a href="Tutorial.html">Basic HTML</a></li>
+  <li><a href="nav_bar.html">Nav-bar</a></li>
+  <li><a class="active" href="Table.html">Tables</a></li>
+  <li><a href="Sheet.html">HTML Cheat Sheet</a></li>
+</ul>
+
+<h3>Using Tables</h3>
+<pre><xmp>
+* A table is defined using the <table> element, and contains a number of table 
+  cells ( <td>, for “table data” ) which are organized into table rows ( <tr>). The 
+  markup (HTML code) for a table is always based on rows, never columns.
+* Table cells which act as column headers or row headers should use the <th> 
+  (table header) element.
+* Table cells can be merged using the colspan and rowspan attributes.
+* Tables can be broken into sections using the following elements:
+  * <thead> — Table header
+  * <tbody> — Table body
+  * <tfoot> — Table footer
+
+* A caption can be added to a table using the <caption> element.
+* You can use <col> and <colgroup> to define table columns for styling. 
+  However, there are a number of limitations with this practice.</xmp></pre>
+ 
+<hr>
+<h3>Table Code Sample: Simple Table</h3>
+<div class="box4 white"><pre><xmp><table> 
+  <tr> 
+    <th>Name</th> 
+    <th>Favorite Color</th> 
+  </tr> 
+  <tr> 
+    <td>Bob</td> 
+    <td>Yellow</td> 
+  </tr> 
+  <tr> 
+    <td>Michelle</td> 
+    <td>Purple</td> 
+  </tr> 
+</table></xmp>
+<img src="table_1.jpg" alt="Table 1" width="630"></div>
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+<hr>
+<h3>Table Code Sample: Complex Table</h3>
+<div class="box5 white"><pre><xmp><table> 
+  <caption>A complex table</caption> 
+  <thead> 
+    <tr> 
+      <th colspan="3">Invoice #123456789</th>
+      <th>14 January 2025 
+      </tr> 
+      <tr> 
+        <td colspan="2"> 
+        <strong>Pay to:</strong><br> 
+        Acme Billing Co.<br> 
+        123 Main St.<br> 
+        Cityville, NA 12345 
+      </td>
+      <td colspan="2"> 
+        <strong>Customer:</strong><br> 
+        John Smith<br> 
+        321 Willow Way<br> 
+         Southeast Northwestershire, MA 54321 
+      </td> 
+    </tr> 
+  </thead> 
+  <tbody> 
+    <tr> 
+     <th>Name / Description</th> 
+      <th>Qty.</th> 
+      <th>@</th> 
+      <th>Cost</th> 
+    </tr> 
+    <tr> 
+      <td>Paperclips</td> 
+      <td>1000</td> 
+      <td>0.01</td> 
+      <td>10.00</td> 
+    </tr>
+    <tr> 
+      <td>Staples (box)</td> 
+      <td>100</td> 
+      <td>1.00</td> 
+      <td>100.00</td> 
+    </tr> 
+  </tbody>
+  <tfoot> 
+   <tr> 
+      <th colspan="3">Subtotal</th> 
+      <td> 110.00</td> 
+    </tr> 
+    <tr> 
+      <th colspan="2">Tax</th> 
+      <td> 8% </td> 
+      <td>8.80</td> 
+    </tr> 
+    <tr> 
+      <th colspan="3">Grand Total</th> 
+      <td>$ 118.80</td> 
+    </tr> 
+  </tfoot> 
+</table></xmp></pre>
+<img src="table_2.jpg" alt="Table 2" width="630"></div>
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+<hr>
+<h3>About Table-Based Layout</h3>
+<pre>It was common in the early days of the web to use tables as a layout device. Before 
+the advent of modern standards-based browsers, this was the easiest way to make 
+sure that page elements were arranged properly on the screen.
+
+This design pattern is now considered very bad. It is bad for the user experience, bad 
+for SEO, and bad for developers who have to maintain pages.
+
+You should not use table-based layout under any circumstances. Instead, check out 
+our CSS Tutorials to start learning about modern web site layout. 
+
+However, that doesn't mean you should avoid tables — tables should be used 
+whenever you need to present information in a tabular format.
+</pre>
+</body>
+</html>
